@@ -1,0 +1,127 @@
+body {
+    background-color: #eaebe3;
+    font-family:  sans-serif;
+    font-weight: 500;
+    margin: 0 0 0 0;
+    color: #294b29;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+/* IMAGE SIDE CSS */
+#left-side-image{
+    width: 50%;
+}
+#left-side-image img {
+    height: 100vh;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+/* VERTICAL TEXT CSS*/
+#sign-up-text {
+    position: absolute;
+    left: 38%;
+    top: 10%;
+    font-family: sans-serif;
+    font-size: 500px;
+    writing-mode: vertical-lr;
+    transform: scale(-1, -1); 
+}
+.half-color {
+	position:relative;
+	display:inline-block;
+ 	color:#eaebe3;
+ 	font-family: sans-serif;
+}
+.half-color:before{
+	content: attr(attribute);
+	color:#294b29;
+	position:absolute;
+	top:0;
+	left:0;
+    width: 50%;
+	overflow:hidden;
+}
+
+/* FORM CSS */
+#right-side-form{
+    width: 50%;
+    text-align: center;
+}
+#right-side-form .heading{
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 7%;
+}
+.form-area{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+.inputbox{
+    text-align: left;
+    padding-top: 1%;
+    border-radius: 10px;
+    margin: 3%;
+    margin-top: 5%;
+    color: #959b8a;
+    background-color: #d4dac9;
+}
+
+.names-div{
+    display: flex;
+}
+
+#right-side-form .form-area input{
+    background-color: #d4dac9;
+    font-size: 40px;
+    width: 91%;
+    border-color: #b4bca4;
+    border: 0px;
+    padding-left: 30px;
+    margin: 1% 1% 0 1%;
+    outline: none;
+}
+
+.form-area label{
+    font-size: 35px;
+    padding-left: 30px;
+}
+.form-area .buttons{
+    display: flex;
+    margin-top: 5%;
+    width:100%;
+}
+
+.form-area button{
+    /* margin-top: 10%; */
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    background-color: #d4dac9;
+    color: #828875;
+    margin-left: 12%; 
+    padding: 15%;
+    width: 194%;
+}
+#createAccount-button{
+    margin-left: 27%;
+}
+.form-area button:hover{
+    background-color: #294b29;
+    color: #959b8a;
+}
+.form-area p{
+    margin-top: 8%;
+    font-size: 40px;
+    color: black;
+}
+span{
+    text-decoration: none;
+    color: #294b29;
+    cursor: pointer;
+}

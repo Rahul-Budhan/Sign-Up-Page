@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="left-side-image">
+            <img src="./src/plants.jpg" alt="image">
+        </div>
+        <h1 id="sign-up-text">
+            <span class="half-color" attribute="S">S</span><span class="half-color" attribute="I">I</span><span
+                class="half-color" attribute="G">G</span><span class="half-color" attribute="N">N</span> <span
+                class="half-color" attribute="U">U</span><span class="half-color" attribute="P">P</span>
+
+        </h1>
+        <div id="right-side-form">
+            <div class="form-area">
+                <form id="sign-up-form">
+                    <h1 class="heading">
+                        Sign Up
+                    </h1>
+                    <div class="names-div">
+                        <div class="inputbox"><label for="FirstName">First Name</label><input type="text"
+                                name="FirstName" required class="name" id="FirstName" placeholder=" "></div>
+                        <div class="inputbox"><label for="LastName">Last Name</label><input type="text" name="LastName"
+                                class="name" id="LastName" placeholder=" "></div>
+                    </div>
+                    <div class="inputbox"><label for="EmailAddress">Email</label><input type="email" name="EmailAddress"
+                            id="EmailAddress" placeholder=" "></div>
+                    <div class="inputbox"><label for="Password">Password</label><input type="password" name="password"
+                            id="Password" required placeholder=" "></div>
+                    <div class="buttons">
+                        <div class="button" id="changeMethod-button" onclick="changeMethod()"><button
+                                type="button">Change Method</button></div>
+                        <div class="button" id="createAccount-button" onclick="submitForm()"><button
+                                type="button">Create
+                                Account</button></div>
+                    </div>
+                </form>
+                
+                <p>Already A Member? <span>Log in</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
